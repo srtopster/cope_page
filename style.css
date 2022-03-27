@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    background-image: url("src/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+video {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid white;
+}
+p {
+    position: absolute;
+    margin-block-end: 5px;
+    bottom: 0px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+p:hover {
+    border: 2px solid red;
+}
+video:hover {
+    border: 1px solid red;
+}
+#text {
+    color: red;
+    font-size: 20px;
+    margin: 0px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    visibility: visible;
+    text-shadow:
+    -1px -1px 0 #000,
+    0   -1px 0 #000,
+    1px -1px 0 #000,
+    1px  0   0 #000,
+    1px  1px 0 #000,
+    0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+#simon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 190px;
+    height: 244px;
+    cursor: pointer;
+}
