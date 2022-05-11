@@ -16,7 +16,7 @@ document.getElementById("b1").onclick = function calc() {
 
     res = p1+p2+p3-m1-m2-m3
     document.getElementById("res").innerHTML = res
-   /*  console.log(h1)
-    console.log(h2)
-    console.log(h3)   */  
+}
+document.getElementById("ee").onclick = function easter_egg() {
+    document.getElementById("vid").style.visibility = "visible"
 }
