@@ -18,5 +18,8 @@ document.getElementById("b1").onclick = function calc() {
     document.getElementById("res").innerHTML = res
 }
 document.getElementById("ee").onclick = function easter_egg() {
-    document.getElementById("vid").style.visibility = "visible"
+    video = document.getElementById("vid")
+    video.style.visibility = "visible"
+    video.load()
+    video.play()
 }
